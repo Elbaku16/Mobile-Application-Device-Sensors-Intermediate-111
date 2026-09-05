@@ -7,10 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97677C8530436CA6002F35D4 /* TrailMarkLenin Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 97677C7B30436CA4002F35D4 /* TrailMarkLenin Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97677C8B30436F14002F35D4 /* TrailmarkCore in Frameworks */ = {isa = PBXBuildFile; productRef = 97677C8A30436F14002F35D4 /* TrailmarkCore */; };
 		976CECEC3032EFCB0040B17C /* TrailmarkCore in Frameworks */ = {isa = PBXBuildFile; productRef = 976CECEB3032EFCB0040B17C /* TrailmarkCore */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		97677C8330436CA6002F35D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 976CECD2303119C20040B17C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97677C7A30436CA4002F35D4;
+			remoteInfo = "TrailMarkLenin Watch App Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97677C8630436CA6002F35D4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				97677C8530436CA6002F35D4 /* TrailMarkLenin Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		97677C7B30436CA4002F35D4 /* TrailMarkLenin Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrailMarkLenin Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		976CECDA303119C20040B17C /* TrailMarkLenin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailMarkLenin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -25,6 +52,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		97677C7C30436CA4002F35D4 /* TrailMarkLenin Watch App Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TrailMarkLenin Watch App Watch App";
+			sourceTree = "<group>";
+		};
 		976CECDC303119C20040B17C /* TrailMarkLenin */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -36,6 +68,14 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		97677C7830436CA4002F35D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97677C8B30436F14002F35D4 /* TrailmarkCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		976CECD7303119C20040B17C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				976CECDC303119C20040B17C /* TrailMarkLenin */,
+				97677C7C30436CA4002F35D4 /* TrailMarkLenin Watch App Watch App */,
 				976CECEA3032EFCB0040B17C /* Frameworks */,
 				976CECDB303119C20040B17C /* Products */,
 			);
@@ -60,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				976CECDA303119C20040B17C /* TrailMarkLenin.app */,
+				97677C7B30436CA4002F35D4 /* TrailMarkLenin Watch App Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +116,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		97677C7A30436CA4002F35D4 /* TrailMarkLenin Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97677C8930436CA6002F35D4 /* Build configuration list for PBXNativeTarget "TrailMarkLenin Watch App Watch App" */;
+			buildPhases = (
+				97677C7730436CA4002F35D4 /* Sources */,
+				97677C7830436CA4002F35D4 /* Frameworks */,
+				97677C7930436CA4002F35D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				97677C7C30436CA4002F35D4 /* TrailMarkLenin Watch App Watch App */,
+			);
+			name = "TrailMarkLenin Watch App Watch App";
+			packageProductDependencies = (
+				97677C8A30436F14002F35D4 /* TrailmarkCore */,
+			);
+			productName = "TrailMarkLenin Watch App Watch App";
+			productReference = 97677C7B30436CA4002F35D4 /* TrailMarkLenin Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		976CECD9303119C20040B17C /* TrailMarkLenin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 976CECE5303119C20040B17C /* Build configuration list for PBXNativeTarget "TrailMarkLenin" */;
@@ -81,10 +146,12 @@
 				976CECD6303119C20040B17C /* Sources */,
 				976CECD7303119C20040B17C /* Frameworks */,
 				976CECD8303119C20040B17C /* Resources */,
+				97677C8630436CA6002F35D4 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				97677C8430436CA6002F35D4 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				976CECDC303119C20040B17C /* TrailMarkLenin */,
@@ -107,6 +174,9 @@
 				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2660;
 				TargetAttributes = {
+					97677C7A30436CA4002F35D4 = {
+						CreatedOnToolsVersion = 26.6;
+					};
 					976CECD9303119C20040B17C = {
 						CreatedOnToolsVersion = 26.6;
 					};
@@ -127,11 +197,19 @@
 			projectRoot = "";
 			targets = (
 				976CECD9303119C20040B17C /* TrailMarkLenin */,
+				97677C7A30436CA4002F35D4 /* TrailMarkLenin Watch App Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		97677C7930436CA4002F35D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		976CECD8303119C20040B17C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +220,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		97677C7730436CA4002F35D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		976CECD6303119C20040B17C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -151,7 +236,89 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		97677C8430436CA6002F35D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97677C7A30436CA4002F35D4 /* TrailMarkLenin Watch App Watch App */;
+			targetProxy = 97677C8330436CA6002F35D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		97677C8730436CA6002F35D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TrailMarkLenin Watch App Watch App/TrailMarkLenin Watch App Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J9MN9YA3K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TrailMarkLenin Watch App";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "TrailMark reads your steps, distance, and active energy to show your daily activity.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "TrailMark saves your recorded activities to the Health app as workouts.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TrailMark records voice memos on your wrist.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.MoodlExampleCh9.TrailMarkLenin;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MoodlExampleCh9.TrailMarkLenin.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		97677C8830436CA6002F35D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TrailMarkLenin Watch App Watch App/TrailMarkLenin Watch App Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4J9MN9YA3K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TrailMarkLenin Watch App";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "TrailMark reads your steps, distance, and active energy to show your daily activity.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "TrailMark saves your recorded activities to the Health app as workouts.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "TrailMark records voice memos on your wrist.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.MoodlExampleCh9.TrailMarkLenin;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MoodlExampleCh9.TrailMarkLenin.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
 		976CECE3303119C20040B17C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -352,6 +519,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		97677C8930436CA6002F35D4 /* Build configuration list for PBXNativeTarget "TrailMarkLenin Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97677C8730436CA6002F35D4 /* Debug */,
+				97677C8830436CA6002F35D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		976CECD5303119C20040B17C /* Build configuration list for PBXProject "TrailMarkLenin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -373,6 +549,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		97677C8A30436F14002F35D4 /* TrailmarkCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TrailmarkCore;
+		};
 		976CECEB3032EFCB0040B17C /* TrailmarkCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = TrailmarkCore;
